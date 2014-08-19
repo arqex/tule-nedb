@@ -1,16 +1,12 @@
-var config = require('config'),
-	hooks = require(config.path.modules + '/hooks/hooksManager')
-;
+'use strict';
 
 module.exports = {
-	init: function(){
-		console.log('First tule plugin initialization ever!');
-		config.nedb = {
-			dataPath: __dirname + '/data'
-		};
+	init: function(hooks){
 
-		hooks.addFilter('db:driverpath', function(){
-			return __dirname + 'nedbDriver';
-		}
+		// Add the driver to the list of available ones.
+		hooks.addFilter('db:drivers', function(drivers){
+			drivers.nedb = __dirname + '/nedbDriver';
+			return drivers;
+		});
 	}
 };

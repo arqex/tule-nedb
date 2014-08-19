@@ -1,0 +1,6 @@
+{"name":"collection_test","propertyDefinitions":[],"mandatoryProperties":[],"hiddenProperties":[],"tableFields":["message"],"_id":"3xy4M0idMNiwwdYh"}
+{"name":"collection_pepe","propertyDefinitions":[],"mandatoryProperties":[],"tableFields":[],"_id":"4GGEAdYSrXJ1MTYY"}
+{"name":"navData","routes":[{"text":"Collection","url":"/collections/list/test"},{"text":"Config","url":"/config"}],"_id":"IkurUUipduumFL88"}
+{"name":"collection_test","propertyDefinitions":[],"mandatoryProperties":[],"hiddenProperties":[],"tableFields":["message"],"_id":"SLt7C3Nu5asnxiB5"}
+{"name":"collection_test","propertyDefinitions":[],"mandatoryProperties":[],"hiddenProperties":[],"tableFields":["message"],"_id":"jsYQpcAruPn988mk"}
+{"name":"globals","settingsCollection":"monSettings","datatypes":["array","boolean","float","integer","object","string","field","select"],"datatypesPath":"modules/datatypes/","_id":"m3GpyvWRJO0hyXSD"}
